@@ -1,5 +1,3 @@
-from Producto import *
-
 class Orden:
 
     contador_orden = 0
@@ -32,4 +30,14 @@ class Orden:
         total = 0
 
         for producto in self.productos:
-            pass
+            total += producto.precio
+        return total
+    
+    def __str__(self):
+        productos_str = ""
+
+        for producto in self.productos:
+            productos_str += producto.__str__() + "-"
+
+        return f"Orden: {self.id_orden}, \nProductos: {productos_str}"
+

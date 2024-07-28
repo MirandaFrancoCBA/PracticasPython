@@ -37,9 +37,6 @@ class Producto:
     def __str__(self):
         return f"Id Producto: {self.id_producto} - Nombre: {self.nombre} - Precio: {self.precio}"
     
-producto1 = Producto("Maceta", 10)
-print(producto1)
-producto2 = Producto("Jarron", 20)
-print(producto2)
+
 
         
