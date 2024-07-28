@@ -1,4 +1,3 @@
-from DispositivoEntrada import *
 class Monitor:
     contador_monitor = 0
 
@@ -28,7 +27,3 @@ class Monitor:
 monitor1 = Monitor("Lenovo", "27 Pulgadas")
 
 
-def imprimir_detalles(objeto):
-    print(objeto)
-
-imprimir_detalles(monitor1)

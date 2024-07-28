@@ -32,9 +32,6 @@ class Raton(DispositivoEntrada):
         return f"[Id Raton: {self.id_raton} - {super().__str__()}"
     
 
-raton1 = Raton("Noga", "USB")
-print(raton1)
-
 class Teclado(DispositivoEntrada):
     contador_teclado  = 0
 
@@ -46,6 +43,5 @@ class Teclado(DispositivoEntrada):
     def __str__(self) -> str:
         return f"[Id Teclado: {self.id_teclado} - {super().__str__()}"
     
-teclado1 = Teclado("HP", "Bluetooth")
-print(teclado1)
+
     
