@@ -23,9 +23,9 @@ class DispositivoEntrada:
 class Raton(DispositivoEntrada):
     contador_ratones = 0
     
-    def __init__(self, tipo_entrada, marca):
+    def __init__(self, marca, tipo_entrada):
         Raton.contador_ratones += 1
-        super().__init__(tipo_entrada, marca)
+        super().__init__(marca, tipo_entrada)
         self.id_raton = Raton.contador_ratones
     
     def __str__(self) -> str:

@@ -22,8 +22,6 @@ class Monitor:
         self._tamanio = tamanio
     
     def __str__(self) -> str:
-        return f"[Id Monitor: {self.id_monitor} - Marca: {self.marca} - Tamaño: {self.tamanio}"
-    
-monitor1 = Monitor("Lenovo", "27 Pulgadas")
+        return f"[Id Monitor: {self.id_monitor} - Marca: {self.marca} - Tamaño: {self.tamanio}]"
 
 
