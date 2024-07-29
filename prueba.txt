@@ -1,0 +1,3 @@
+Se agrega texto llamando al metodo write 
+Aparentemente cada linea que esrcibo en archivo.write(), aparece en una linea nueva 
+Confirmó, no salta de linea si no pones barra n 
