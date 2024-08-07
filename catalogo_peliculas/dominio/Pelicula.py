@@ -3,4 +3,4 @@ class Pelicula:
         self.nombre = nombre
 
     def __str__(self) -> str:
-        return f"{self.nombre}"
+        return self.nombre
