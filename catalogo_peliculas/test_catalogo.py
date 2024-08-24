@@ -1,6 +1,5 @@
 from dominio.Pelicula import Pelicula
 from servicios.CatalogoPelicula import CatalogoPeliculas
-import os
 
 opcion = 0
 
@@ -13,4 +12,5 @@ print("Opcion 4: Salir ".center(50, ("-")))
 opcion = int(input("Elija una opcion (1 - 4): "))
 
 if opcion == 4:
+    print("Hasta luego!")
     exit
